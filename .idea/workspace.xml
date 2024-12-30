@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="44afbc27-38cf-4596-a442-41c557fbde80" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/featureFiles/specialAssistance.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SpecialAssistancePageSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/ApkFile/Prod.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ApkFile/Prod.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/DeparturePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/DeparturePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/FlightsInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/FlightsInformationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/PreLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/PreLoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/SignupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/SignupPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/SpecialAssistancePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/SpecialAssistancePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/StoresPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/StoresPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/TrackMyFlightPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/TrackMyFlightPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/HomePageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/HomePageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PreLoginPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PreLoginPageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/SpecialAssistancePageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/SpecialAssistancePageLoc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/essentials.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/essentials.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/flightsPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/flightsPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/general.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/general.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/homePageCarouselCards.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/homePageCarouselCards.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/loginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/loginPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/preLoginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/preLoginPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/signupPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/signupPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/storesPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/storesPage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/userProfile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/userProfile.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/welcomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/welcomePage.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseTestSteps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTestSteps/BaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/EssentialServicesPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/EssentialServicesPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/FlightPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/FlightPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneralPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneralPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageCarouselCardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageCarouselCardSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/PreLoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/PreLoginPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StoresSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StoresSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/UserProfileSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/UserProfileSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/WelcomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WelcomePageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test output/PdfReport/ExtentPdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/test output/PdfReport/ExtentPdf.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/SparkReport/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SparkReport/Index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2pIkiyjokFRNX3S1diAb3Qq0DOt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: EssessntialServices.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: loginPage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: otherWelcomePage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: preLoginPage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: signupPage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: specialAssistance.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: welcomePage.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Add a Arrival flight to the Plan My Journey Carousel Card and verify its validation.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Add a flight to the Flights Carousel Card and verify its addition.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Logout Functionality.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Signup with Valid Information.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Special Assistance workflow.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User changes password successfully.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify All Functionalities in prelogin.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify Camera Popup Window UI Validations.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify Functionality of Submit button after selecting the terminal BKI in prelogin page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify Functionality of Submit button after selecting the terminal KCH in prelogin page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify Functionality of Submit button after selecting the terminal PEN in prelogin page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify Functionality of change language in prelogin.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify Successful Login with Valid Credentials.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify that all functionalities are working fine in EssentialServices (1).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify that all functionalities are working fine in EssentialServices.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify that users are able to view all personalized menus when selects BKI.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify that users are able to view all personalized menus when selects Terminal 1.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify that users are able to view all personalized menus when selects Terminal 2.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify the Contact Us button functionality.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify the Flights Functionality.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify the menu button functionality.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify the navigation flow of the Favorites Page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify the navigation flow of the Feedback Page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: verify user successfully Register with Valid credentials using the Butterfly Effect carousel card.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MyAirports [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MyAirports [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MyAirports [test].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.TestRunner.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestRunner1.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestRunner2.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.TestRunner3.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Mind-Graph/Downloads/Kapil_MyAirports/MyAirport/src/main/ApkFile&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mind-Graph\Downloads\Kapil_MyAirports\MyAirport\src\main\ApkFile" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mind-Graph\Downloads\Kapil_MyAirports\MyAirport\src\main\ApkFile" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="testRunner" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TestRunner1">
+    <configuration name="Scenario: Signup with Valid Information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/signupPage.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyAirports" />
+      <option name="NAME_FILTER" value="^Signup with Valid Information$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Signup with Valid Information$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Signup with Valid Information" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify Camera Popup Window UI Validations" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/userProfile.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MyAirports" />
+      <option name="NAME_FILTER" value="^Verify Camera Popup Window UI Validations$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Camera Popup Window UI Validations$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify Camera Popup Window UI Validations" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAirports" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.TestRunner1" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAirports" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.TestRunner2" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner3" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MyAirports" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testRunner" />
+      <option name="MAIN_CLASS_NAME" value="testRunner.TestRunner3" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TestRunner1" />
+        <item itemvalue="TestNG.TestRunner2" />
+        <item itemvalue="TestNG.TestRunner3" />
+        <item itemvalue="Cucumber Java.Scenario: Verify Camera Popup Window UI Validations" />
+        <item itemvalue="Cucumber Java.Scenario: Signup with Valid Information" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44afbc27-38cf-4596-a442-41c557fbde80" name="Changes" comment="" />
+      <created>1732461107738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732461107738</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-java" />
+    <option featureType="dependencySupport" implementationName="java:io.grpc:grpc-api" />
+    <option featureType="dependencySupport" implementationName="java:io.reactivex.rxjava3:rxjava" />
+    <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
+    <option featureType="dependencySupport" implementationName="java:org.projectlombok:lombok" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utils/MobileUtils.java</url>
+          <line>140</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/baseTestSteps/BaseSteps.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
