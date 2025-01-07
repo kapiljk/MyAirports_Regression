@@ -5,48 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44afbc27-38cf-4596-a442-41c557fbde80" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/featureFiles/specialAssistance.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/SpecialAssistancePageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/ApkFile/Prod.apk" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/ApkFile/Prod.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/DeparturePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/DeparturePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/FlightsInformationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/FlightsInformationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/PreLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/PreLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/SignupPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/SignupPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/SpecialAssistancePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/SpecialAssistancePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/StoresPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/StoresPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageClasses/TrackMyFlightPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageClasses/TrackMyFlightPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/HomePageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/HomePageLoc.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PreLoginPageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/PreLoginPageLoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/pageLocators/SpecialAssistancePageLoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/pageLocators/SpecialAssistancePageLoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/essentials.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/essentials.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/flightsPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/flightsPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/general.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/general.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/MobileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/MobileUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/homePageCarouselCards.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/homePageCarouselCards.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/loginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/loginPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/preLoginPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/preLoginPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/signupPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/signupPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/storesPage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/storesPage.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/userProfile.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/userProfile.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/featureFiles/welcomePage.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/featureFiles/welcomePage.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/baseTestSteps/BaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseTestSteps/BaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/EssentialServicesPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/EssentialServicesPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/FlightPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/FlightPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneralPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/GeneralPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageCarouselCardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageCarouselCardSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/HomePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/LoginPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/PreLoginPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/PreLoginPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/StoresSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/StoresSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/UserProfileSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/UserProfileSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/WelcomePageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/WelcomePageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testRunner/TestRunner1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test output/PdfReport/ExtentPdf.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/test output/PdfReport/ExtentPdf.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output-thread/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output-thread/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/SparkReport/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/SparkReport/Index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -139,16 +108,16 @@
       <recent name="testRunner" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TestRunner1">
-    <configuration name="Scenario: Signup with Valid Information" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Verify that users are able to view all personalized menus when selects Terminal 1">
+    <configuration name="Scenario: Verify All Functionalities in prelogin" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/signupPage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/preLoginPage.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MyAirports" />
-      <option name="NAME_FILTER" value="^Signup with Valid Information$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Signup with Valid Information$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Signup with Valid Information" />
+      <option name="NAME_FILTER" value="^Verify All Functionalities in prelogin$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify All Functionalities in prelogin$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify All Functionalities in prelogin" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -160,15 +129,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Verify Camera Popup Window UI Validations" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Verify that users are able to view all personalized menus when selects Terminal 1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/userProfile.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/featureFiles/homePage.feature" />
       <option name="GLUE" value="stepDefinitions" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="MyAirports" />
-      <option name="NAME_FILTER" value="^Verify Camera Popup Window UI Validations$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify Camera Popup Window UI Validations$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Verify Camera Popup Window UI Validations" />
+      <option name="NAME_FILTER" value="^Verify that users are able to view all personalized menus when selects Terminal 1$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify that users are able to view all personalized menus when selects Terminal 1$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify that users are able to view all personalized menus when selects Terminal 1" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -233,11 +202,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Verify that users are able to view all personalized menus when selects Terminal 1" />
+        <item itemvalue="Cucumber Java.Scenario: Verify All Functionalities in prelogin" />
         <item itemvalue="TestNG.TestRunner1" />
         <item itemvalue="TestNG.TestRunner2" />
         <item itemvalue="TestNG.TestRunner3" />
-        <item itemvalue="Cucumber Java.Scenario: Verify Camera Popup Window UI Validations" />
-        <item itemvalue="Cucumber Java.Scenario: Signup with Valid Information" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +244,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/utils/MobileUtils.java</url>
-          <line>140</line>
+          <line>145</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

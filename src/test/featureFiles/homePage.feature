@@ -11,7 +11,7 @@ Feature: Verify Home Page Functionality
   @homePage @MyAirportRegressionOne
   Scenario: Verify that users are able to view all personalized menus when selects Terminal 1
     Given the user select the Terminal1 from the dropdown
-    Then the user is able to view flights, dining, essentials & services, shuttle bus, stores, and customer feedback in the first slide
+    Then the user is able to view flights, dining, essentials & services, shuttle bus, carpark, and customer feedback in the first slide
     When the user clicks on the Next arrow button for the next slide
     Then the user is able to view online shopping, transportation, lounge, booking services, hotels, and bureau de change in the second slide
     When the user clicks on the Next arrow button for the next slide

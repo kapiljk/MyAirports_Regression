@@ -78,6 +78,10 @@ public class HomePage extends MobileUtils implements HomePageLoc {
         isElementVisible(getTabs("Stores"), "Stores Icon");
     }
 
+    public void verifyCarparkIcon() {
+        isElementVisible(getTabs("Car Park"), "Stores Icon");
+    }
+
     public void clickOnCustomerFeedbackIcon() {
         click(getTabs("Customer Feedback"), "Customer Feedback Icon");
     }

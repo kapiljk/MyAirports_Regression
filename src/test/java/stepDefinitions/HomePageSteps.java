@@ -147,13 +147,13 @@ public class HomePageSteps {
     }
 
 
-    @Given("the user is able to view flights, dining, essentials & services, shuttle bus, stores, and customer feedback in the first slide")
-    public void the_user_is_able_to_view_flights_dining_essentials_services_shuttle_bus_stores_and_customer_feedback_in_the_first_slide() {
+    @Given("the user is able to view flights, dining, essentials & services, shuttle bus, carpark, and customer feedback in the first slide")
+    public void the_user_is_able_to_view_flights_dining_essentials_services_shuttle_bus_carpark_and_customer_feedback_in_the_first_slide() {
         pm.homePage().verifyFlightsIcon();
         pm.homePage().verifyDinningIcon();
         pm.homePage().verifyEssentialAndServicesIcon();
         pm.homePage().verifyKULTerminal1ShuttleBusIcon();
-        pm.homePage().verifyStoresIcon();
+        pm.homePage().verifyCarparkIcon();
         pm.homePage().verifyCustomerFeedbackIcon();
     }
 

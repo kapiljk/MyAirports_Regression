@@ -59,6 +59,11 @@ public class MobileUtils {
                 .perform();
     }
 
+    public void scrolldownWeb(WebElement element){
+        JavascriptExecutor js = (JavascriptExecutor) _driver;
+        js.executeScript("arguments[0].scrollIntoView({behavior: 'smooth', block: 'center'});", element);
+    }
+
     public void scrollLeft(int distanceFromBottom) {
         int width = _driver.manage().window().getSize().getWidth();
         int height = _driver.manage().window().getSize().getHeight();

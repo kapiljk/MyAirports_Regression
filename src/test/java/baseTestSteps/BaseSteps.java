@@ -29,9 +29,9 @@ public class BaseSteps {
     public static AndroidDriver getDriver() throws MalformedURLException {
         dir = System.getProperty("user.dir");
 
-        service = new AppiumServiceBuilder().withAppiumJS(new File("C://Users//Mind-Graph//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
-                .withIPAddress("127.0.0.1").usingPort(4723).build();
-        service.start(); //Last 3 lines need to un comment for CICD
+//        service = new AppiumServiceBuilder().withAppiumJS(new File("C://Users//Mind-Graph//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
+//                .withIPAddress("127.0.0.1").usingPort(4723).build();
+//        service.start(); //Last 3 lines need to un comment for CICD
 
 
 
@@ -44,9 +44,9 @@ public class BaseSteps {
         options.setPlatformName("Android");
         options.setPlatformVersion("Android 11");
 
-//        URL url = new URL("http://127.0.0.1:4723/wd/hub");//uncomment for Appium server
+        URL url = new URL("http://127.0.0.1:4723/wd/hub");//uncomment for Appium server
 
-        URL url = new URL("http://127.0.0.1:4723"); //uncomment for cmd
+//        URL url = new URL("http://127.0.0.1:4723"); //uncomment for cmd
         driver = new AndroidDriver(url, options);
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time_out));
