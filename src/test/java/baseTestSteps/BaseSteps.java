@@ -22,7 +22,7 @@ public class BaseSteps {
 
     public static AndroidDriver driver;
     public static AppiumDriverLocalService service;
-    public final static int time_out = 200;
+    public final static int time_out = 180;
     public static PageObjectManager pm;
     private static String dir;
 
@@ -33,17 +33,12 @@ public class BaseSteps {
 //                .withIPAddress("127.0.0.1").usingPort(4723).build();
 //        service.start(); //Last 3 lines need to un comment for CICD
 
-
-
-
         UiAutomator2Options options = new UiAutomator2Options();
-
         options.setDeviceName("Pixel 6 pro API 30");
         options.setApp(dir + "//src//main//ApkFile//Prod.apk");
         options.setUdid("emulator-5554");
         options.setPlatformName("Android");
         options.setPlatformVersion("Android 11");
-
         URL url = new URL("http://127.0.0.1:4723/wd/hub");//uncomment for Appium server
 
 //        URL url = new URL("http://127.0.0.1:4723"); //uncomment for cmd
@@ -51,6 +46,7 @@ public class BaseSteps {
 
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time_out));
         return driver;
+
     }
 
     public static void closeDriver() {
@@ -86,6 +82,16 @@ public class BaseSteps {
             pm = new PageObjectManager(driver);
             pm.preLoginPage().clickOnSubmitButton();
         } catch (Exception ignored) {
+        }
+    }
+    public static void guestLogin() {
+        try {
+            pm = new PageObjectManager(driver);
+            pm.guestPage().clickOnGuestButton();
+            pm.guestPage().locationPopup().verifyLocationPopupHeading();
+            pm.guestPage().clickSkip();
+        } catch (Exception ignored){
+
         }
     }
 }

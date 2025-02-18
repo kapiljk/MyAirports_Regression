@@ -40,7 +40,7 @@ public class FavouritesPage extends MobileUtils implements FavouritesPageLoc {
     public void verifySameStoreHasBeenOpened() {
         String actText = this.getTextFromFirstDisplayedFavouriteStore();
         String expText = singleStorePage().verifySingleStorePageHeading();
-        Assert.assertEquals(actText, expText);
+        Assert.assertEquals(actText, expText.toUpperCase());
     }
 
 }

@@ -1,16 +1,10 @@
 package pages.pageClasses;
 
 import io.appium.java_client.android.AndroidDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import pages.pageLocators.DinningPageLoc;
+import pages.pageLocators.GuestLoc;
 import pages.pageLocators.HomePageLoc;
-import utils.CommonFunctions;
 import utils.MobileUtils;
-
-import java.time.Duration;
-import java.time.LocalDate;
 
 public class HomePage extends MobileUtils implements HomePageLoc {
     private final AndroidDriver _driver;
@@ -68,6 +62,21 @@ public class HomePage extends MobileUtils implements HomePageLoc {
     public void verifyKULTerminal1ShuttleBusIcon() {
         isElementVisible(getTabs("KUL Terminal 1 Shuttle Bus"), "KUL Terminal 1 Shuttle Bus Icon");
     }
+    public void clickOnCarParking(){
+        click(getTabs("Car Park"), "Car Parking Icon");
+    }
+    public void verifyCarparkIcon() {
+        isElementVisible(getTabs("Car Park"), "Car Parking Icon");
+    }
+
+    public void clickOnCustomerFeedbackIcon() {
+        click(getTabs("Customer Feedback"), "Customer Feedback Icon");
+    }
+
+    public void verifyCustomerFeedbackIcon() {
+        isElementVisible(getTabs("Customer Feedback"), "Customer Feedback Icon");
+    }
+
 
     public void clickOnStoresIcon() {
         waitForElementPresence(btnCards,"Plan my journey");
@@ -78,17 +87,9 @@ public class HomePage extends MobileUtils implements HomePageLoc {
         isElementVisible(getTabs("Stores"), "Stores Icon");
     }
 
-    public void verifyCarparkIcon() {
-        isElementVisible(getTabs("Car Park"), "Stores Icon");
-    }
 
-    public void clickOnCustomerFeedbackIcon() {
-        click(getTabs("Customer Feedback"), "Customer Feedback Icon");
-    }
 
-    public void verifyCustomerFeedbackIcon() {
-        isElementVisible(getTabs("Customer Feedback"), "Customer Feedback Icon");
-    }
+
 
     public void clickOnForwardButton() {
         waitForElementPresence(btnForward, "Forward Icon");
@@ -222,7 +223,7 @@ public class HomePage extends MobileUtils implements HomePageLoc {
         try {
             this.verifyUser();
 //            Thread.sleep(10000);
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 4; i++)
                 scrollLeft(500);
             click(btnCards, "Butterfly Carousel Card");
         } catch (Exception ignored) {
@@ -231,9 +232,15 @@ public class HomePage extends MobileUtils implements HomePageLoc {
     }
 
     public void clickOnPlanMyJourneyCarouselCard() {
+
         waitForElementPresence(btnCards,"PlanMyJourney in Home page");
+        scrollUp();
+        scrollLeft(500);
+        scrollLeft(500);
         click(btnCards, "Plan My Journey Carousel Card");
-        new CommonFunctions(_driver).clickOnOkButton();
+         click(btnOk,"Popup After clicked on PlanMyJourney");
+       // new CommonFunctions(_driver).clickOnOkButton();
+
     }
 
     public void clickOnFlightsCarouselCard() {
@@ -249,6 +256,9 @@ public class HomePage extends MobileUtils implements HomePageLoc {
 
     public void clickOnPromotionsCarouselCard() {
         waitForElementPresence(btnCards,"PlanMyJourney in Home page");
+        scrollUp();
+        scrollLeft(500);
+        scrollLeft(500);
         scrollLeft(500);
         scrollLeft(500);
         click(btnCards, "Promotions Card");
@@ -351,4 +361,42 @@ public class HomePage extends MobileUtils implements HomePageLoc {
         waitForElementPresence(btnCards,"PlanMyJourney in Home page");
         click(btnSpecialOnHome,"Special Assistance button on Home");
     }
+
+public void clickOnGlobalSearch(){
+    waitForElementPresence(btnCards,"PlanMyJourney in Home page");
+    click(searchGlobal,"Global Search on Home Page");
+}
+public void clickBackInGlobal(){
+        click(backInGlobalSearch,"Clicked on Back button in Global Page");
+}
+public void verifyGlobalPage(){
+        isElementVisible(lblGlobal,"Global Page visible");
+}
+public void sendKeysOnSearchInGlobal(){
+        enterText(searchInGlobal,"ATM","Enter Text as ATM");
+}
+public void clickOnCross(){
+        click(crossInGlobal,"Cross button in Search Field");
+}
+public void clickOnATM1(){
+        click(resultATM,"1st ATM Option");
+}
+public void verifyATM(){
+        isElementVisible(lblATM,"ATM Search Result Page");
+}
+public void clickBackOnATMPage(){
+        click(backInATMPage,"Back button in ATM Page");
+}
+
+public void clickOnLinkExcitingNews(){
+    waitForElementPresence(btnCards,"PlanMyJourney in Home page");
+    click(lnkExciting,"Exciting news link");
+}
+public void verifyExcitingNewsPage(){
+        isElementVisible(bckInExciting,"Back button in Exciting news page");
+}
+public void clickBackInExcitingNews(){
+        click(bckInExciting,"Back button in Exciting news page");
+}
+
 }

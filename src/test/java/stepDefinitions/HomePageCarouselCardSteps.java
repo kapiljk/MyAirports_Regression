@@ -28,6 +28,7 @@ public class HomePageCarouselCardSteps {
     public void beforeWelcomePage() {
         BaseSteps.prelogins();
     }
+
     @Before(value = "@butterflyEffect or @trackMyFlight or @planMyJourney or @Promotions", order = 2)
     public void login_Into_Application_And_Enable_Location_If_Required() {
         BaseSteps.loginApplication();
@@ -148,10 +149,10 @@ public class HomePageCarouselCardSteps {
     public void selects_a_flight() throws InterruptedException {
         try {
             pm.flightsInformationPage().clickOnFlight();
-            Thread.sleep(3000);
+            Thread.sleep(5000);
             actualFlightNum = pm.flightsInformationPage().clickOnTrackMyFlight();
             Thread.sleep(3000);
-            pm.departurePage().clickOnDoneButton();
+//            pm.departurePage().clickOnDoneButton();
             pm.departurePage().clickOnBackButton();
             Thread.sleep(3000);
             pm.flightsInformationPage().clickOnBackButton();

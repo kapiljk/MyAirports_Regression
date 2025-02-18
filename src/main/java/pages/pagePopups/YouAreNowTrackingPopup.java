@@ -17,7 +17,7 @@ public class YouAreNowTrackingPopup extends MobileUtils implements YouAreNowTrac
     }
 
     public void enterEmail() {
-        enterText(txtEmail, "vishnupavan7036@gmail.com", "Email text field");
+        enterText(txtEmail, "palepu.jk@gmail.com", "Email text field");
     }
 
     public void clickOnTermsAndConditionsCheckBox() {

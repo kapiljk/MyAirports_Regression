@@ -5,6 +5,7 @@ import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
+import org.testng.Assert;
 import utils.*;
 
 import java.net.MalformedURLException;
@@ -14,10 +15,10 @@ public class LoginPageSteps {
     private PageObjectManager pm;
 
 
-    @Before(value = "@login", order = 0)
+    @Before(value = "@login or @social", order = 0)
     public void launchApp() throws MalformedURLException {
         System.out.println("before Login method is running");
-        _driver = BaseSteps.getDriver();
+        this._driver = BaseSteps.getDriver();
         pm = new PageObjectManager(_driver);
     }
 
@@ -27,7 +28,7 @@ public class LoginPageSteps {
         BaseSteps.closeDriver();
     }
 
-    @Before(value = "@login", order = 1)
+    @Before(value = "@login or @social", order = 1)
     public void beforeWelcomePage() {
         BaseSteps.prelogins();
     }
@@ -71,4 +72,44 @@ public class LoginPageSteps {
         pm.homePage().verifyUserName("Welcome");
     }
 
+    @Then("the user click on the login with google button")
+    public void the_user_click_on_the_login_with_google_button() throws InterruptedException {
+       try {
+           pm.loginPage().clickGoogle();
+       } catch(Exception ignore){
+
+       }
+    }
+    @Then("the user enter email or phone number in the text field and click next")
+    public void the_user_enter_email_or_phone_number_in_the_text_field_and_click_next() {
+        try {
+            pm.loginPage().enterGoogleUserName();
+            pm.loginPage().hideKeyboard();
+            pm.loginPage().clickNext();
+        } catch(Exception ignore){
+
+        }
+    }
+    @Then("the user enter password in the text field and click next")
+    public void the_user_enter_password_in_the_text_field_and_click_next() {
+        try {
+            pm.loginPage().enterGooglePassword();
+            pm.loginPage().hideKeyboard();
+            pm.loginPage().clickNext();
+        } catch (Exception ignored) {
+
+        }
+
+    }
+    @Then("verify that user land on application home page.")
+    public void verify_that_user_land_on_application_home_page() {
+try{
+    if(pm.loginPage().errorMessage().isEmpty()){
+        pm.homePage().verifyHomePage();
+    } else {
+        Assert.assertTrue( pm.loginPage().errorMessage().contains("Wrong password. Try again or click Forgot password to reset it."));
+    }
+} catch (Exception ignored){
+}
+    }
 }

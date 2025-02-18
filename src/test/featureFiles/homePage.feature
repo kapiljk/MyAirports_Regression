@@ -13,9 +13,9 @@ Feature: Verify Home Page Functionality
     Given the user select the Terminal1 from the dropdown
     Then the user is able to view flights, dining, essentials & services, shuttle bus, carpark, and customer feedback in the first slide
     When the user clicks on the Next arrow button for the next slide
-    Then the user is able to view online shopping, transportation, lounge, booking services, hotels, and bureau de change in the second slide
+    Then the user is able to view online shopping, transportation, lounge, booking services, hotels, and stores in the second slide
     When the user clicks on the Next arrow button for the next slide
-    Then the user is able to view clinic, transfer counter, airline ticketing center, baggage reclaim, baggage locker, and information center in the last slide
+    Then the user is able to view clinic, transfer counter, airline ticketing center, baggage reclaim, baggage locker, and Bureau de Change in the last slide
 
   @homePage @MyAirportRegressionOne
   Scenario: Verify that users are able to view all personalized menus when selects Terminal 2
@@ -71,6 +71,29 @@ Feature: Verify Home Page Functionality
     Examples:
       | Terminal one          | Terminal two          |
       | KUL - KLIA Terminal 1 | KUL - KLIA Terminal 2 |
+
+
+  @GlobalSearch @MyAirportRegressionTwo
+  Scenario: Verify the Global Search Functionality
+    Given the user is on the Home Page
+    When the user clicks on the Global Search icon on the home page
+    Then verify the user navigates to the Global Search Page
+    And the user is able to search with keys
+    And the user can able to click on the results
+    Then verifies that the user navigated to result page.
+    And the user click on back button in the result page
+    Then the user navigates to the global search page
+    And click on back button on the search page
+    Then the user should be navigated back to the Home Page
+
+
+  @news @MyAirportRegressionTwo
+  Scenario: Verify the news functionality
+    Given the user is on the Home Page
+    When the user clicks on the Exciting News on the home page
+    Then verify the user navigates to the exciting news Page
+    And clicks on the back arrow icon in the exciting news Page
+    And verifies that the user lands back on the Home Page
 
   @menu @MyAirportRegressionTwo
   Scenario: Verify the menu button functionality

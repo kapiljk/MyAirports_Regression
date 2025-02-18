@@ -17,6 +17,10 @@ public interface PreLoginPageLoc {
     By btnSubmit = By.xpath("//*[@text='LOGIN / SIGN UP   | ']");
     By btnSubmitMalayLang = By.xpath("//*[@text='LOG MASUK / DAFTAR |']");
     By btnSubmitChinaLang = By.xpath("//*[@text='登录 / 注册 |']");
-    By btnGuest = By.xpath("//*[@text='   GUEST']");
+    //By btnGuest = By.xpath("//*[@text='   GUEST']");
     By lnkReadMore = By.xpath("//*[@text='Read More']");
+    By btnBackNews = By.xpath("//*[@text='1 May 2024, 12:00 am']/preceding-sibling::*[1]");
+
+
+
 }

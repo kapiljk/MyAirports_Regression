@@ -32,5 +32,20 @@ public interface HomePageLoc {
     By btnEzpaz = By.xpath("//*[@text='EZPaz']");
     By btnMaps = By.xpath("//*[@text='MAPS']");
     By btnCloseMenu = By.xpath("//*[@text='KEY INFO']/../following-sibling::*[1]/*/*[2]");
+    By btnOk = By.xpath("//*[@text='OK']");
+    By lnkExciting = By.xpath("//*[@text='Exciting News!                ']");
+    By bckInExciting = By.xpath("(//*[contains(@text,'1 May 2024')])[1]/preceding-sibling::*[1]");
+    By searchGlobal = By.xpath("//*[contains(@class,'HorizontalScrollView')][1]/preceding-sibling::*[2]/*");
+    By lblGlobal = By.xpath("//*[@text='SEARCH']");
+    By backInGlobalSearch = By.xpath("//*[@text='SEARCH']/preceding-sibling::*[1]/*");
+    By searchInGlobal = By.xpath("//*[@text='Search for Flights, Shops, Dining etc']");
+    By crossInGlobal = By.xpath("(//*[@text='ATM']/following-sibling::*[1])[1]");
+    By resultATM = By.xpath("(//*[@text='ATM']/following-sibling::*[1])[2]");
+    By lblATM = By.xpath("//*[@text='ATM']");
+    By backInATMPage = By.xpath("//*[@text='ATM']/preceding-sibling::*[1]");
+
+
+
+
 
 }

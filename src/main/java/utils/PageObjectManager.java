@@ -48,6 +48,8 @@ public class PageObjectManager {
     public YouAreNowTrackingPopup youAreNowTrackingPopup;
     public PreLoginPage preLoginPage;
     public EssentialServicePage essentialServicePage;
+    public GuestPage guestPage;
+
 
 
     public PageObjectManager(AndroidDriver driver) {
@@ -59,6 +61,13 @@ public class PageObjectManager {
             arrivalPage = new ArrivalPage(_driver);
         }
         return arrivalPage;
+    }
+
+    public GuestPage guestPage(){
+        if(guestPage==null){
+            guestPage=new GuestPage(_driver);
+        }
+        return guestPage;
     }
 
     public EssentialServicePage essentialServicePage() {

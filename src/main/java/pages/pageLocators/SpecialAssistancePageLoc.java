@@ -3,7 +3,7 @@ package pages.pageLocators;
 import org.openqa.selenium.By;
 
 public interface SpecialAssistancePageLoc {
-    By btnSpecialOnHome = By.xpath("//*[contains(@text,'Special')]/preceding-sibling::*[1]");
+    //By btnSpecialOnHome = By.xpath("//*[contains(@text,'Special')]/preceding-sibling::*[1]");
     By lblHeading = By.xpath("//*[@text='SPECIAL ASSISTANCE ']");
     //By btnBack = By.xpath("//*[@text='SPECIAL ASSISTANCE ']/preceding-sibling::*[3]/*");
     By btnBack = By.xpath("//*[@text='SPECIAL ASSISTANCE ']/preceding-sibling::*[1]");

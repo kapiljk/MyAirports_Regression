@@ -139,4 +139,16 @@ public class PreLoginPage extends MobileUtils implements PreLoginPageLoc {
         System.out.println("Clicking on submit button in Pre Login page");
         click(btnSubmit, "Submit button");
     }
+    public void verifyReadMore(){
+        isElementVisible(lnkReadMore,"Read more link visible");
+    }
+    public void clickOnReadMore(){
+        click(lnkReadMore,"Clicking on ReadMore link");
+    }
+    public void verifyNewsPage(){
+        isElementVisible(btnBackNews,"Backbutton visible in news page");
+    }
+    public void clickOnBackInNews(){
+        click(btnBackNews,"Clicking on Back button in News Page");
+    }
 }

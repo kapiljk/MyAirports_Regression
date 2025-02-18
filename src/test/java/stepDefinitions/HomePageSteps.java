@@ -5,8 +5,6 @@ import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.testng.Assert;
 import utils.*;
 
@@ -17,23 +15,23 @@ public class HomePageSteps {
     private AndroidDriver _driver;
     private PageObjectManager pm;
 
-    @Before(value = "@homePage or @flights or @menu", order = 0)
+    @Before(value = "@homePage or @news or @flights or @menu or @GlobalSearch", order = 0)
     public void init() throws MalformedURLException {
         _driver = BaseSteps.getDriver();
         pm = new PageObjectManager(_driver);
     }
 
-    @After("@homePage or @flights or @menu")
+    @After("@homePage or @news or @flights or @menu or @GlobalSearch")
     public void closeApp() {
         BaseSteps.closeDriver();
     }
 
-    @Before(value = "@homePage or @flights or @menu", order = 1)
+    @Before(value = "@homePage or @news or @flights or @menu or @GlobalSearch", order = 1)
     public void beforeWelcomePage() {
         BaseSteps.prelogins();
     }
 
-    @Before(value = "@homePage or @flights or @menu", order = 2)
+    @Before(value = "@homePage or @news or @flights or @menu or @GlobalSearch", order = 2)
     public void login_Into_Application_And_Enable_Location_If_Required() {
         BaseSteps.loginApplication();
     }
@@ -162,24 +160,25 @@ public class HomePageSteps {
         pm.homePage().clickOnForwardButton();
     }
 
-    @Then("the user is able to view online shopping, transportation, lounge, booking services, hotels, and bureau de change in the second slide")
-    public void the_user_is_able_to_view_online_shopping_transportation_lounge_booking_services_hotels_and_bureau_de_change_in_the_second_slide() {
+    @Then("the user is able to view online shopping, transportation, lounge, booking services, hotels, and stores in the second slide")
+    public void the_user_is_able_to_view_online_shopping_transportation_lounge_booking_services_hotels_and_stores_in_the_second_slide() {
         pm.homePage().verifyOnlineShoppingIcon();
         pm.homePage().verifyTransportIcon();
         pm.homePage().verifyLoungeIcon();
-        pm.homePage().verifyBookingServicesIcon();
+        pm.homePage().verifyStoresIcon();
         pm.homePage().verifyHotelsIcon();
-        pm.homePage().verifyBureaudeChangeIcon();
+        pm.homePage().verifyBookingServicesIcon();
     }
 
-    @Then("the user is able to view clinic, transfer counter, airline ticketing center, baggage reclaim, baggage locker, and information center in the last slide")
-    public void the_user_is_able_to_view_clinic_transfer_counter_airline_ticketing_center_baggage_reclaim_baggage_locker_and_information_center_in_the_last_slide() {
+    @Then("the user is able to view clinic, transfer counter, airline ticketing center, baggage reclaim, baggage locker, and Bureau de Change in the last slide")
+    public void the_user_is_able_to_view_clinic_transfer_counter_airline_ticketing_center_baggage_reclaim_baggage_locker_and_Bureau_de_Change_in_the_last_slide() {
+        pm.homePage().verifyBureaudeChangeIcon();
         pm.homePage().verifyClinicIcon();
         pm.homePage().verifyTransferCounterIcon();
         pm.homePage().verifyAirlineTicketingCentreIcon();
         pm.homePage().verifyBaggageReclaimIcon();
         pm.homePage().verifyBaggageLockerIcon();
-        pm.homePage().verifyInformationCentreIcon();
+
     }
 
 
@@ -446,7 +445,6 @@ public class HomePageSteps {
     public void the_user_clicks_on_the_back_button_on_the_feedback_page() {
         pm.menuPopup().customerFeedbackPage().clickOnCloseIcon();
     }
-
     @And("the user selects the SETTINGS feature in the Menu")
     public void the_user_selects_the_settings_feature_in_the_menu() {
         pm.menuPopup().clickOnSettingsButton();
@@ -456,25 +454,69 @@ public class HomePageSteps {
     public void the_user_should_be_navigated_to_the_settings_page() {
         pm.menuPopup().settingsPage().verifySettingsPage();
     }
-
     @When("the user clicks on the Back button on the SETTINGS Page")
     public void the_user_clicks_on_the_back_button_on_the_settings_page() {
         pm.menuPopup().settingsPage().clickOnBackIcon();
     }
-
     @And("the user selects the MY PROFILE feature in the Menu")
     public void the_user_selects_the_my_profile_feature_in_the_menu() {
         pm.menuPopup().clickOnMyProfileButton();
     }
-
     @Then("the user should be navigated to the MY PROFILE Page")
     public void the_user_should_be_navigated_to_the_my_profile_page() {
         pm.menuPopup().userProfilePage().verifyUserProfilePage();
     }
-
     @When("the user clicks on the Back button on the MY PROFILE Page")
     public void the_user_clicks_on_the_back_button_on_the_my_profile_page() {
         pm.menuPopup().userProfilePage().clickOnBackButton();
     }
+    @Then("the user successfully navigates to the Home page page")
+    public void the_user_successfully_navigates_to_the_home_page_page() {
+        pm.homePage().verifyHomePage();
+    }
 
+    @When("the user clicks on the Exciting News on the home page")
+    public void the_user_clicks_on_the_exciting_news_on_the_home_page() {
+    pm.homePage().clickOnLinkExcitingNews();
+    }
+    @Then("verify the user navigates to the exciting news Page")
+    public void verify_the_user_navigates_to_the_exciting_news_page() {
+    pm.homePage().verifyExcitingNewsPage();
+    }
+    @Then("clicks on the back arrow icon in the exciting news Page")
+    public void clicks_on_the_back_arrow_icon_in_the_exciting_news_page() {
+    pm.homePage().clickBackInExcitingNews();
+    }
+    @When("the user clicks on the Global Search icon on the home page")
+    public void the_user_clicks_on_the_global_search_icon_on_the_home_page() {
+        pm.homePage().clickOnGlobalSearch();
+    }
+    @Then("verify the user navigates to the Global Search Page")
+    public void verify_the_user_navigates_to_the_global_search_page() {
+        pm.homePage().verifyGlobalPage();
+    }
+    @Then("the user is able to search with keys")
+    public void the_user_is_able_to_search_with_keys() {
+        pm.homePage().sendKeysOnSearchInGlobal();
+    }
+    @Then("the user can able to click on the results")
+    public void the_user_can_able_to_click_on_the_results() {
+       pm.homePage().clickOnATM1();
+    }
+    @Then("verifies that the user navigated to result page.")
+    public void verifies_that_the_user_navigated_to_result_page() {
+        pm.homePage().verifyATM();
+    }
+    @Then("the user click on back button in the result page")
+    public void the_user_click_on_back_button_in_the_result_page() {
+    pm.homePage().clickBackOnATMPage();
+    }
+    @Then("the user navigates to the global search page")
+    public void the_user_navigates_to_the_global_search_page() {
+    pm.homePage().verifyGlobalPage();
+    }
+    @Then("click on back button on the search page")
+    public void click_on_back_button_on_the_search_page() {
+    pm.homePage().clickBackInGlobal();
+    }
 }

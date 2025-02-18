@@ -21,4 +21,7 @@ public interface WelcomePageLoc {
     By btnEnglishInChinese = By.xpath("//*[@text='英文 ']");
 
 
+
+
+
 }

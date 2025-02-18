@@ -67,5 +67,21 @@ public class LoginPage extends MobileUtils  implements LoginPageLoc {
     public LocationPopup locationPopup() {
         return new LocationPopup(_driver);
     }
+    public void clickGoogle() throws InterruptedException {
+        click(btnGoogle,"Clicked on Login With Google button");
+        Thread.sleep(5000);
+    }
+    public void enterGoogleUserName(){
+        enterText(txtUserNameGoogle, "Google email ID","Gmail ID");
+    }
+    public void enterGooglePassword(){
+        enterText(txtPasswordGoogle, "Google email Password","Gmail ID Pass");
+    }
+    public void clickNext(){
+        click(btnNextGoogle,"Next button in google pages");
+    }
+    public String errorMessage(){
+        return getText(errorMessageGoogle);
+    }
 
 }
